@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 
 function NotFound() {
   return (
-    <div>
-        <h1 className="">404</h1>
-        <p>No hay nada acá.</p>
-    </div>
-  )
+    <main className="container">
+      <div className="row">
+        <h1 className="center-align">404</h1>
+      </div>
+      <div>
+        <p className="center-align">No hay nada acá.</p>
+      </div>
+    </main>
+  );
 }
 
-export default NotFound
+export default NotFound;

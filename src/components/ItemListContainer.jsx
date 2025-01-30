@@ -1,24 +1,24 @@
 import { useEffect, useState } from "react";
 import Item from "./Item";
-import productList from "../assets/productList.json"
+import productList from "../assets/productList.json";
 
 function ItemListContainer() {
-  const [products, setProducts] = useState([])
+  const [productos, setProductos] = useState([]);
   useEffect(() => {
-    setProducts(productList)
-    console.log(products)
-  })
+    setProductos(productList);
+    console.log(productos);
+  });
 
   return (
     <>
-    <div className="row">
-      <h1>Catálogo</h1>
-    </div>
-    <div className="row">
-      {products.map(product => (
-        <Item key={product.id} product={product} />
-      ))}
-    </div>
+      <div className="row">
+        <h1 className="col s12">Catálogo</h1>
+      </div>
+      <div className="row">
+        {productos.map((producto) => (
+          <Item key={producto.id} producto={producto} />
+        ))}
+      </div>
     </>
   );
 }

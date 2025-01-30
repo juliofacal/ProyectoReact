@@ -1,7 +1,10 @@
 function CartWidget() {
   return (
     <>
-      <span className="material-symbols-outlined">shopping_cart</span>
+      <i className="large material-icons material-symbols-outlined">
+        shopping_cart
+        <span className="white badge">4</span>
+      </i>
     </>
   );
 }

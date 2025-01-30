@@ -12,7 +12,7 @@ function Category() {
       (prod) => prod.categoria === parseInt(catId)
     );
     setProducts(filterProducts);
-    console.log(products)
+    console.log(products);
   }, []);
 
   return (

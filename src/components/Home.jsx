@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import ItemListContainer from "./ItemListContainer";
 
 function Home() {
