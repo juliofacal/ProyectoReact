@@ -5,7 +5,7 @@ function Item({ product }) {
   return (
     <div className="card medium col s12 m4">
       <div className="card-image">
-        <img src="img/remera-blanca.jpg" />
+        <img src={`img/${product.imagen}`} />
         <span className="card-title">{product.nombre}</span>
       </div>
       <div className="card-content">

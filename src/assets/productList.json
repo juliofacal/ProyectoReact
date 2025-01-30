@@ -2,6 +2,7 @@
   {
     "id": 1,
     "nombre": "Remera Básica",
+    "imagen": "placeholder.jpg",
     "precio": 10.99,
     "talla": "M",
     "color": "Blanco",
@@ -11,6 +12,7 @@
   {
     "id": 2,
     "nombre": "Remera Estampada",
+    "imagen": "placeholder.jpg",
     "precio": 12.99,
     "talla": "L",
     "color": "Negro",
@@ -20,6 +22,7 @@
   {
     "id": 3,
     "nombre": "Bermuda Casual",
+    "imagen": "placeholder.jpg",
     "precio": 15.99,
     "talla": "M",
     "color": "Azul",
@@ -29,6 +32,7 @@
   {
     "id": 4,
     "nombre": "Bermuda Deportiva",
+    "imagen": "placeholder.jpg",
     "precio": 18.99,
     "talla": "S",
     "color": "Gris",
@@ -38,6 +42,7 @@
   {
     "id": 5,
     "nombre": "Camisa Formal",
+    "imagen": "placeholder.jpg",
     "precio": 25.99,
     "talla": "L",
     "color": "Blanco",
@@ -47,6 +52,7 @@
   {
     "id": 6,
     "nombre": "Camisa Casual",
+    "imagen": "placeholder.jpg",
     "precio": 20.99,
     "talla": "M",
     "color": "Rojo",
@@ -56,6 +62,7 @@
   {
     "id": 7,
     "nombre": "Pantalón Jeans",
+    "imagen": "placeholder.jpg",
     "precio": 30.99,
     "talla": "32",
     "color": "Azul",
@@ -65,6 +72,7 @@
   {
     "id": 8,
     "nombre": "Pantalón Chino",
+    "imagen": "placeholder.jpg",
     "precio": 28.99,
     "talla": "30",
     "color": "Beige",
@@ -74,6 +82,7 @@
   {
     "id": 9,
     "nombre": "Remera Polo",
+    "imagen": "placeholder.jpg",
     "precio": 14.99,
     "talla": "M",
     "color": "Verde",
@@ -83,6 +92,7 @@
   {
     "id": 10,
     "nombre": "Remera Deportiva",
+    "imagen": "placeholder.jpg",
     "precio": 16.99,
     "talla": "L",
     "color": "Rojo",
@@ -92,6 +102,7 @@
   {
     "id": 11,
     "nombre": "Bermuda de Playa",
+    "imagen": "placeholder.jpg",
     "precio": 19.99,
     "talla": "L",
     "color": "Verde",
@@ -101,6 +112,7 @@
   {
     "id": 12,
     "nombre": "Bermuda Cargadora",
+    "imagen": "placeholder.jpg",
     "precio": 17.99,
     "talla": "XL",
     "color": "Negro",
@@ -110,6 +122,7 @@
   {
     "id": 13,
     "nombre": "Camisa de Lino",
+    "imagen": "placeholder.jpg",
     "precio": 27.99,
     "talla": "M",
     "color": "Azul Claro",
@@ -119,6 +132,7 @@
   {
     "id": 14,
     "nombre": "Camisa a Cuadros",
+    "imagen": "placeholder.jpg",
     "precio": 22.99,
     "talla": "S",
     "color": "Verde",
@@ -128,6 +142,7 @@
   {
     "id": 15,
     "nombre": "Pantalón de Vestir",
+    "imagen": "placeholder.jpg",
     "precio": 35.99,
     "talla": "34",
     "color": "Negro",
@@ -137,6 +152,7 @@
   {
     "id": 16,
     "nombre": "Pantalón Deportivo",
+    "imagen": "placeholder.jpg",
     "precio": 24.99,
     "talla": "M",
     "color": "Gris",
@@ -146,6 +162,7 @@
   {
     "id": 17,
     "nombre": "Remera Rayada",
+    "imagen": "placeholder.jpg",
     "precio": 13.99,
     "talla": "S",
     "color": "Azul y Blanco",
@@ -155,6 +172,7 @@
   {
     "id": 18,
     "nombre": "Bermuda Denim",
+    "imagen": "placeholder.jpg",
     "precio": 21.99,
     "talla": "32",
     "color": "Azul Claro",
@@ -164,6 +182,7 @@
   {
     "id": 19,
     "nombre": "Camisa Vaquera",
+    "imagen": "placeholder.jpg",
     "precio": 29.99,
     "talla": "L",
     "color": "Azul",
@@ -173,6 +192,7 @@
   {
     "id": 20,
     "nombre": "Pantalón Jogger",
+    "imagen": "placeholder.jpg",
     "precio": 23.99,
     "talla": "L",
     "color": "Negro",
@@ -182,6 +202,7 @@
   {
     "id": 21,
     "nombre": "Remera de Algodón Orgánico",
+    "imagen": "placeholder.jpg",
     "precio": 18.99,
     "talla": "M",
     "color": "Verde",
@@ -191,6 +212,7 @@
   {
     "id": 22,
     "nombre": "Bermuda Estampada",
+    "imagen": "placeholder.jpg",
     "precio": 20.99,
     "talla": "M",
     "color": "Multicolor",
@@ -200,6 +222,7 @@
   {
     "id": 23,
     "nombre": "Camisa de Franela",
+    "imagen": "placeholder.jpg",
     "precio": 26.99,
     "talla": "XL",
     "color": "Rojo",
@@ -209,6 +232,7 @@
   {
     "id": 24,
     "nombre": "Pantalón Cargo",
+    "imagen": "placeholder.jpg",
     "precio": 31.99,
     "talla": "36",
     "color": "Verde Oliva",
@@ -218,6 +242,7 @@
   {
     "id": 25,
     "nombre": "Vestido de Noche",
+    "imagen": "placeholder.jpg",
     "precio": 45.99,
     "talla": "M",
     "color": "Negro",
@@ -227,6 +252,7 @@
   {
     "id": 26,
     "nombre": "Vestido Floral",
+    "imagen": "placeholder.jpg",
     "precio": 32.99,
     "talla": "S",
     "color": "Rojo",
@@ -236,6 +262,7 @@
   {
     "id": 27,
     "nombre": "Vestido Casual",
+    "imagen": "placeholder.jpg",
     "precio": 28.99,
     "talla": "L",
     "color": "Azul",
@@ -245,6 +272,7 @@
   {
     "id": 28,
     "nombre": "Vestido de Fiesta",
+    "imagen": "placeholder.jpg",
     "precio": 52.99,
     "talla": "M",
     "color": "Plateado",
@@ -254,6 +282,7 @@
   {
     "id": 29,
     "nombre": "Vestido de Verano",
+    "imagen": "placeholder.jpg",
     "precio": 27.99,
     "talla": "M",
     "color": "Amarillo",
