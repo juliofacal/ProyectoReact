@@ -5,7 +5,7 @@
     "precio": 10.99,
     "talla": "M",
     "color": "Blanco",
-    "categoria": "remeras",
+    "categoria": 1,
     "descripcion": "Una remera básica, cómoda y fácil de combinar."
   },
   {
@@ -14,7 +14,7 @@
     "precio": 12.99,
     "talla": "L",
     "color": "Negro",
-    "categoria": "remeras",
+    "categoria": 1,
     "descripcion": "Remera con un diseño estampado moderno y llamativo."
   },
   {
@@ -23,7 +23,7 @@
     "precio": 15.99,
     "talla": "M",
     "color": "Azul",
-    "categoria": "bermudas",
+    "categoria": 2,
     "descripcion": "Bermuda casual perfecta para un look relajado."
   },
   {
@@ -32,7 +32,7 @@
     "precio": 18.99,
     "talla": "S",
     "color": "Gris",
-    "categoria": "bermudas",
+    "categoria": 2,
     "descripcion": "Bermuda deportiva ideal para actividades al aire libre."
   },
   {
@@ -41,7 +41,7 @@
     "precio": 25.99,
     "talla": "L",
     "color": "Blanco",
-    "categoria": "camisas",
+    "categoria": 3,
     "descripcion": "Camisa formal adecuada para eventos importantes."
   },
   {
@@ -50,7 +50,7 @@
     "precio": 20.99,
     "talla": "M",
     "color": "Rojo",
-    "categoria": "camisas",
+    "categoria": 3,
     "descripcion": "Camisa casual con un toque de color para el día a día."
   },
   {
@@ -59,7 +59,7 @@
     "precio": 30.99,
     "talla": "32",
     "color": "Azul",
-    "categoria": "pantalones",
+    "categoria": 4,
     "descripcion": "Pantalón jeans resistente y versátil para cualquier ocasión."
   },
   {
@@ -68,7 +68,7 @@
     "precio": 28.99,
     "talla": "30",
     "color": "Beige",
-    "categoria": "pantalones",
+    "categoria": 4,
     "descripcion": "Pantalón chino elegante y cómodo para un estilo sofisticado."
   },
   {
@@ -77,7 +77,7 @@
     "precio": 14.99,
     "talla": "M",
     "color": "Verde",
-    "categoria": "remeras",
+    "categoria": 1,
     "descripcion": "Remera polo con cuello, perfecta para un look casual y elegante."
   },
   {
@@ -86,7 +86,7 @@
     "precio": 16.99,
     "talla": "L",
     "color": "Rojo",
-    "categoria": "remeras",
+    "categoria": 1,
     "descripcion": "Remera deportiva con tecnología de absorción de sudor."
   },
   {
@@ -95,7 +95,7 @@
     "precio": 19.99,
     "talla": "L",
     "color": "Verde",
-    "categoria": "bermudas",
+    "categoria": 2,
     "descripcion": "Bermuda de playa cómoda y ligera, ideal para el verano."
   },
   {
@@ -104,7 +104,7 @@
     "precio": 17.99,
     "talla": "XL",
     "color": "Negro",
-    "categoria": "bermudas",
+    "categoria": 2,
     "descripcion": "Bermuda con bolsillos múltiples para mayor comodidad."
   },
   {
@@ -113,7 +113,7 @@
     "precio": 27.99,
     "talla": "M",
     "color": "Azul Claro",
-    "categoria": "camisas",
+    "categoria": 3,
     "descripcion": "Camisa de lino fresca y transpirable, ideal para climas cálidos."
   },
   {
@@ -122,7 +122,7 @@
     "precio": 22.99,
     "talla": "S",
     "color": "Verde",
-    "categoria": "camisas",
+    "categoria": 3,
     "descripcion": "Camisa a cuadros clásica para un estilo informal."
   },
   {
@@ -131,7 +131,7 @@
     "precio": 35.99,
     "talla": "34",
     "color": "Negro",
-    "categoria": "pantalones",
+    "categoria": 4,
     "descripcion": "Pantalón de vestir elegante para ocasiones formales."
   },
   {
@@ -140,7 +140,7 @@
     "precio": 24.99,
     "talla": "M",
     "color": "Gris",
-    "categoria": "pantalones",
+    "categoria": 4,
     "descripcion": "Pantalón deportivo cómodo y funcional para entrenamientos."
   },
   {
@@ -149,7 +149,7 @@
     "precio": 13.99,
     "talla": "S",
     "color": "Azul y Blanco",
-    "categoria": "remeras",
+    "categoria": 1,
     "descripcion": "Remera con diseño rayado para un look náutico."
   },
   {
@@ -158,7 +158,7 @@
     "precio": 21.99,
     "talla": "32",
     "color": "Azul Claro",
-    "categoria": "bermudas",
+    "categoria": 2,
     "descripcion": "Bermuda de mezclilla para un estilo casual y duradero."
   },
   {
@@ -167,7 +167,7 @@
     "precio": 29.99,
     "talla": "L",
     "color": "Azul",
-    "categoria": "camisas",
+    "categoria": 3,
     "descripcion": "Camisa vaquera resistente para un estilo rústico."
   },
   {
@@ -176,7 +176,7 @@
     "precio": 23.99,
     "talla": "L",
     "color": "Negro",
-    "categoria": "pantalones",
+    "categoria": 4,
     "descripcion": "Pantalón jogger con ajuste cómodo y relajado."
   },
   {
@@ -185,7 +185,7 @@
     "precio": 18.99,
     "talla": "M",
     "color": "Verde",
-    "categoria": "remeras",
+    "categoria": 1,
     "descripcion": "Remera hecha de algodón orgánico, suave y ecológica."
   },
   {
@@ -194,7 +194,7 @@
     "precio": 20.99,
     "talla": "M",
     "color": "Multicolor",
-    "categoria": "bermudas",
+    "categoria": 2,
     "descripcion": "Bermuda con estampados divertidos y coloridos."
   },
   {
@@ -203,7 +203,7 @@
     "precio": 26.99,
     "talla": "XL",
     "color": "Rojo",
-    "categoria": "camisas",
+    "categoria": 3,
     "descripcion": "Camisa de franela cálida y cómoda para el invierno."
   },
   {
@@ -212,7 +212,7 @@
     "precio": 31.99,
     "talla": "36",
     "color": "Verde Oliva",
-    "categoria": "pantalones",
+    "categoria": 4,
     "descripcion": "Pantalón cargo con múltiples bolsillos para mayor funcionalidad."
   },
   {
@@ -221,7 +221,7 @@
     "precio": 45.99,
     "talla": "M",
     "color": "Negro",
-    "categoria": "vestidos",
+    "categoria": 5,
     "descripcion": "Elegante vestido de noche ideal para eventos formales."
   },
   {
@@ -230,7 +230,7 @@
     "precio": 32.99,
     "talla": "S",
     "color": "Rojo",
-    "categoria": "vestidos",
+    "categoria": 5,
     "descripcion": "Vestido con estampado floral perfecto para el verano."
   },
   {
@@ -239,7 +239,7 @@
     "precio": 28.99,
     "talla": "L",
     "color": "Azul",
-    "categoria": "vestidos",
+    "categoria": 5,
     "descripcion": "Vestido casual cómodo y versátil para el día a día."
   },
   {
@@ -248,7 +248,7 @@
     "precio": 52.99,
     "talla": "M",
     "color": "Plateado",
-    "categoria": "vestidos",
+    "categoria": 5,
     "descripcion": "Brillante vestido de fiesta para destacar en cualquier celebración."
   },
   {
@@ -257,7 +257,7 @@
     "precio": 27.99,
     "talla": "M",
     "color": "Amarillo",
-    "categoria": "vestidos",
+    "categoria": 5,
     "descripcion": "Vestido ligero y fresco para disfrutar del verano."
   }
 ]

@@ -4,6 +4,7 @@ const categoriesList = [
   { id: 2, name: "Bermudas", descripcion: "bbbb" },
   { id: 3, name: "Camisas", descripcion: "cccc" },
   { id: 4, name: "Pantalones", descripcion: "dddd" },
+  { id: 5, name: "Vestidos", descripcion: "eeee" },
 ];
 
 function Categories() {
