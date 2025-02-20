@@ -3,9 +3,11 @@ import ItemListContainer from "./ItemListContainer";
 
 function Home() {
   return (
-    <main className="container">
-      <ItemListContainer />
-    </main>
+    <>
+      <main className="container">
+        <ItemListContainer />
+      </main>
+    </>
   );
 }
 

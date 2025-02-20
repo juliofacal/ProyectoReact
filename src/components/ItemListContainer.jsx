@@ -6,7 +6,6 @@ function ItemListContainer() {
   const [productos, setProductos] = useState([]);
   useEffect(() => {
     setProductos(productList);
-    console.log(productos);
   });
 
   return (
