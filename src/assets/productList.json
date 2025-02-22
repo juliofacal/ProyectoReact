@@ -1,321 +1,263 @@
 [
   {
-    "id": 1,
     "nombre": "Remera Básica",
     "imagen": "placeholder.jpg",
     "precio": 11000,
     "talla": "M",
     "color": "Blanco",
     "categoria": 1,
-    "descripcion": "Una remera básica, cómoda y fácil de combinar.",
-    "stock": 20
+    "descripcion": "Una remera básica, cómoda y fácil de combinar."
   },
   {
-    "id": 2,
     "nombre": "Remera Estampada",
     "imagen": "placeholder.jpg",
     "precio": 13000,
     "talla": "L",
     "color": "Negro",
     "categoria": 1,
-    "descripcion": "Remera con un diseño estampado moderno y llamativo.",
-    "stock": 20
+    "descripcion": "Remera con un diseño estampado moderno y llamativo."
   },
   {
-    "id": 3,
     "nombre": "Bermuda Casual",
     "imagen": "placeholder.jpg",
     "precio": 15990,
     "talla": "M",
     "color": "Azul",
     "categoria": 2,
-    "descripcion": "Bermuda casual perfecta para un look relajado.",
-    "stock": 20
+    "descripcion": "Bermuda casual perfecta para un look relajado."
   },
   {
-    "id": 4,
     "nombre": "Bermuda Deportiva",
     "imagen": "placeholder.jpg",
     "precio": 18990,
     "talla": "S",
     "color": "Gris",
     "categoria": 2,
-    "descripcion": "Bermuda deportiva ideal para actividades al aire libre.",
-    "stock": 20
+    "descripcion": "Bermuda deportiva ideal para actividades al aire libre."
   },
   {
-    "id": 5,
     "nombre": "Camisa Formal",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "L",
     "color": "Blanco",
     "categoria": 3,
-    "descripcion": "Camisa formal adecuada para eventos importantes.",
-    "stock": 20
+    "descripcion": "Camisa formal adecuada para eventos importantes."
   },
   {
-    "id": 6,
     "nombre": "Camisa Casual",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "M",
     "color": "Rojo",
     "categoria": 3,
-    "descripcion": "Camisa casual con un toque de color para el día a día.",
-    "stock": 20
+    "descripcion": "Camisa casual con un toque de color para el día a día."
   },
   {
-    "id": 7,
     "nombre": "Pantalón Jeans",
     "imagen": "placeholder.jpg",
     "precio": 31000,
     "talla": "32",
     "color": "Azul",
     "categoria": 4,
-    "descripcion": "Pantalón jeans resistente y versátil para cualquier ocasión.",
-    "stock": 20
+    "descripcion": "Pantalón jeans resistente y versátil para cualquier ocasión."
   },
   {
-    "id": 8,
     "nombre": "Pantalón Chino",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "30",
     "color": "Beige",
     "categoria": 4,
-    "descripcion": "Pantalón chino elegante y cómodo para un estilo sofisticado.",
-    "stock": 20
+    "descripcion": "Pantalón chino elegante y cómodo para un estilo sofisticado."
   },
   {
-    "id": 9,
     "nombre": "Remera Polo",
     "imagen": "placeholder.jpg",
     "precio": 11000,
     "talla": "M",
     "color": "Verde",
     "categoria": 1,
-    "descripcion": "Remera polo con cuello, perfecta para un look casual y elegante.",
-    "stock": 20
+    "descripcion": "Remera polo con cuello, perfecta para un look casual y elegante."
   },
   {
-    "id": 10,
     "nombre": "Remera Deportiva",
     "imagen": "placeholder.jpg",
     "precio": 11000,
     "talla": "L",
     "color": "Rojo",
     "categoria": 1,
-    "descripcion": "Remera deportiva con tecnología de absorción de sudor.",
-    "stock": 20
+    "descripcion": "Remera deportiva con tecnología de absorción de sudor."
   },
   {
-    "id": 11,
     "nombre": "Bermuda de Playa",
     "imagen": "placeholder.jpg",
     "precio": 11000,
     "talla": "L",
     "color": "Verde",
     "categoria": 2,
-    "descripcion": "Bermuda de playa cómoda y ligera, ideal para el verano.",
-    "stock": 20
+    "descripcion": "Bermuda de playa cómoda y ligera, ideal para el verano."
   },
   {
-    "id": 12,
     "nombre": "Bermuda Cargadora",
     "imagen": "placeholder.jpg",
     "precio": 11000,
     "talla": "XL",
     "color": "Negro",
     "categoria": 2,
-    "descripcion": "Bermuda con bolsillos múltiples para mayor comodidad.",
-    "stock": 20
+    "descripcion": "Bermuda con bolsillos múltiples para mayor comodidad."
   },
   {
-    "id": 13,
     "nombre": "Camisa de Lino",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "M",
     "color": "Azul Claro",
     "categoria": 3,
-    "descripcion": "Camisa de lino fresca y transpirable, ideal para climas cálidos.",
-    "stock": 20
+    "descripcion": "Camisa de lino fresca y transpirable, ideal para climas cálidos."
   },
   {
-    "id": 14,
     "nombre": "Camisa a Cuadros",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "S",
     "color": "Verde",
     "categoria": 3,
-    "descripcion": "Camisa a cuadros clásica para un estilo informal.",
-    "stock": 20
+    "descripcion": "Camisa a cuadros clásica para un estilo informal."
   },
   {
-    "id": 15,
     "nombre": "Pantalón de Vestir",
     "imagen": "placeholder.jpg",
     "precio": 31000,
     "talla": "34",
     "color": "Negro",
     "categoria": 4,
-    "descripcion": "Pantalón de vestir elegante para ocasiones formales.",
-    "stock": 20
+    "descripcion": "Pantalón de vestir elegante para ocasiones formales."
   },
   {
-    "id": 16,
     "nombre": "Pantalón Deportivo",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "M",
     "color": "Gris",
     "categoria": 4,
-    "descripcion": "Pantalón deportivo cómodo y funcional para entrenamientos.",
-    "stock": 20
+    "descripcion": "Pantalón deportivo cómodo y funcional para entrenamientos."
   },
   {
-    "id": 17,
     "nombre": "Remera Rayada",
     "imagen": "placeholder.jpg",
     "precio": 11000,
     "talla": "S",
     "color": "Azul y Blanco",
     "categoria": 1,
-    "descripcion": "Remera con diseño rayado para un look náutico.",
-    "stock": 20
+    "descripcion": "Remera con diseño rayado para un look náutico."
   },
   {
-    "id": 18,
     "nombre": "Bermuda Denim",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "32",
     "color": "Azul Claro",
     "categoria": 2,
-    "descripcion": "Bermuda de mezclilla para un estilo casual y duradero.",
-    "stock": 20
+    "descripcion": "Bermuda de mezclilla para un estilo casual y duradero."
   },
   {
-    "id": 19,
     "nombre": "Camisa Vaquera",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "L",
     "color": "Azul",
     "categoria": 3,
-    "descripcion": "Camisa vaquera resistente para un estilo rústico.",
-    "stock": 20
+    "descripcion": "Camisa vaquera resistente para un estilo rústico."
   },
   {
-    "id": 20,
     "nombre": "Pantalón Jogger",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "L",
     "color": "Negro",
     "categoria": 4,
-    "descripcion": "Pantalón jogger con ajuste cómodo y relajado.",
-    "stock": 20
+    "descripcion": "Pantalón jogger con ajuste cómodo y relajado."
   },
   {
-    "id": 21,
     "nombre": "Remera de Algodón Orgánico",
     "imagen": "placeholder.jpg",
     "precio": 11000,
     "talla": "M",
     "color": "Verde",
     "categoria": 1,
-    "descripcion": "Remera hecha de algodón orgánico, suave y ecológica.",
-    "stock": 20
+    "descripcion": "Remera hecha de algodón orgánico, suave y ecológica."
   },
   {
-    "id": 22,
     "nombre": "Bermuda Estampada",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "M",
     "color": "Multicolor",
     "categoria": 2,
-    "descripcion": "Bermuda con estampados divertidos y coloridos.",
-    "stock": 20
+    "descripcion": "Bermuda con estampados divertidos y coloridos."
   },
   {
-    "id": 23,
     "nombre": "Camisa de Franela",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "XL",
     "color": "Rojo",
     "categoria": 3,
-    "descripcion": "Camisa de franela cálida y cómoda para el invierno.",
-    "stock": 20
+    "descripcion": "Camisa de franela cálida y cómoda para el invierno."
   },
   {
-    "id": 24,
     "nombre": "Pantalón Cargo",
     "imagen": "placeholder.jpg",
     "precio": 31000,
     "talla": "36",
     "color": "Verde Oliva",
     "categoria": 4,
-    "descripcion": "Pantalón cargo con múltiples bolsillos para mayor funcionalidad.",
-    "stock": 20
+    "descripcion": "Pantalón cargo con múltiples bolsillos para mayor funcionalidad."
   },
   {
-    "id": 25,
     "nombre": "Vestido de Noche",
     "imagen": "placeholder.jpg",
     "precio": 41000,
     "talla": "M",
     "color": "Negro",
     "categoria": 5,
-    "descripcion": "Elegante vestido de noche ideal para eventos formales.",
-    "stock": 20
+    "descripcion": "Elegante vestido de noche ideal para eventos formales."
   },
   {
-    "id": 26,
     "nombre": "Vestido Floral",
     "imagen": "placeholder.jpg",
     "precio": 31000,
     "talla": "S",
     "color": "Rojo",
     "categoria": 5,
-    "descripcion": "Vestido con estampado floral perfecto para el verano.",
-    "stock": 20
+    "descripcion": "Vestido con estampado floral perfecto para el verano."
   },
   {
-    "id": 27,
     "nombre": "Vestido Casual",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "L",
     "color": "Azul",
     "categoria": 5,
-    "descripcion": "Vestido casual cómodo y versátil para el día a día.",
-    "stock": 20
+    "descripcion": "Vestido casual cómodo y versátil para el día a día."
   },
   {
-    "id": 28,
     "nombre": "Vestido de Fiesta",
     "imagen": "placeholder.jpg",
     "precio": 51000,
     "talla": "M",
     "color": "Plateado",
     "categoria": 5,
-    "descripcion": "Brillante vestido de fiesta para destacar en cualquier celebración.",
-    "stock": 20
+    "descripcion": "Brillante vestido de fiesta para destacar en cualquier celebración."
   },
   {
-    "id": 29,
     "nombre": "Vestido de Verano",
     "imagen": "placeholder.jpg",
     "precio": 21000,
     "talla": "M",
     "color": "Amarillo",
     "categoria": 5,
-    "descripcion": "Vestido ligero y fresco para disfrutar del verano.",
-    "stock": 20
+    "descripcion": "Vestido ligero y fresco para disfrutar del verano."
   }
 ]

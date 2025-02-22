@@ -10,6 +10,7 @@ import ItemDetail from "./components/ItemDetail";
 import Cart from "./components/Cart";
 
 import { CartProvider } from "./context/CartContext";
+import CheckOut from "./components/CheckOut";
 
 function Titulo({ titulo, clase }) {
   return <h1 className={clase}>{titulo ? titulo : "Título"}</h1>;
@@ -31,6 +32,7 @@ function App() {
             </Route>
             <Route path="/item/:id" element={<ItemDetail />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<CheckOut />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </CartProvider>

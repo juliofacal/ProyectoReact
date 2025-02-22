@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import productList from "../assets/productList.json";
+import { collection, getDocs, getFirestore, query } from "firebase/firestore";
 
 function Category() {
   const { categoryId } = useParams();
