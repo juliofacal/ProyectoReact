@@ -1,23 +1,28 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-function Item({ producto }) {
+function Item({ item }) {
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    navigate(`/item/${item.id}`);
+  };
+
   return (
     <div className="card medium col s12 m4">
       <div className="card-image">
-        <img src={`/img/${producto.imagen}`} alt={producto.nombre} />
-        <span className="card-title">{producto.nombre}</span>
+        <img src={`/img/${item.imagen}`} alt={item.nombre} />
+        <span className="card-title">{item.nombre}</span>
       </div>
       <div className="card-content">
-        <p>{producto.descripcion}</p>
+        <p>{item.descripcion}</p>
         <p>
-          <b>Precio:</b> ${producto.precio}
+          <b>Precio:</b> ${item.precio}
         </p>
       </div>
       <div className="card-action">
-        <Link to={`/item/${producto.id}`} role="button">
+        <button className="btn" onClick={handleViewDetails}>
           Ver detalles
-        </Link>
+        </button>
       </div>
     </div>
   );

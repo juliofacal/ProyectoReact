@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useCart } from "../context/CartContext";
 
-function ItemCount({ stock, onAdd }) {
-  const [quantity, setQuantity] = useState(1);
+function ItemCount({ initial, stock, item }) {
+  const {addItem, removeItem } = useCart();
+  const [quantity, setQuantity] = useState(initial);
 
   const handleIncrement = () => {
     if (quantity < stock) setQuantity(quantity + 1);
@@ -12,30 +14,21 @@ function ItemCount({ stock, onAdd }) {
   };
 
   return (
-    <>
-      {stock ? (
-        <>
-          <button className="btn" onClick={handleDecrement}>
-            -
-          </button>
-          <p>{quantity}</p>
-          <button className="btn" onClick={handleIncrement}>
-            +
-          </button>
-          <button
-            className="btn"
-            onClick={() => onAdd(quantity)}
-            disabled={!stock}
-          >
-            Agregar al carrito
-          </button>
-        </>
-      ) : (
-        <>
-          <p>No hay stock {stock}</p>
-        </>
-      )}
-    </>
+    <div className="item-count">
+      <button className="btn" onClick={handleDecrement}>
+        -
+      </button>
+      <p>{quantity}</p>
+      <button className="btn" onClick={handleIncrement}>
+        +
+      </button>
+      <button className="btn" onClick={() => addItem(item, quantity)} disabled={!stock}>
+        Agregar al carrito
+      </button>
+      <button className="btn" onClick={() => removeItem(item.id)} disabled={!stock}>
+        Eliminar del carrito
+      </button>
+    </div>
   );
 }
 

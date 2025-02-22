@@ -1,5 +1,4 @@
 import "./App.css";
-import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
@@ -8,21 +7,15 @@ import NotFound from "./components/NotFound";
 import Category from "./components/Category";
 import ItemDetail from "./components/ItemDetail";
 import Cart from "./components/Cart";
-
-import { CartProvider } from "./context/CartContext";
 import CheckOut from "./components/CheckOut";
 
-function Titulo({ titulo, clase }) {
-  return <h1 className={clase}>{titulo ? titulo : "Título"}</h1>;
-}
+import { CartProvider } from "./context/CartContext";
 
 function App() {
-  const [message, setMessage] = useState("");
-
   return (
     <>
-      <BrowserRouter>
-        <CartProvider>
+      <CartProvider>
+        <BrowserRouter>
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -35,8 +28,8 @@ function App() {
             <Route path="/checkout" element={<CheckOut />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </CartProvider>
-      </BrowserRouter>
+        </BrowserRouter>
+      </CartProvider>
     </>
   );
 }

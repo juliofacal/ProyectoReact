@@ -1,19 +1,14 @@
-import Cart from "./Cart";
-import { useContext } from "react";
-import { CartContext } from "../context/CartContext";
+import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
 
 function CartWidget() {
-  const { totalQuantity } = useContext(CartContext);
+  const { totalItems } = useCart();
 
   return (
     <>
-      <Link
-        to="/cart"
-        style={{ display: totalQuantity > 0 ? "block" : "none" }}
-      >
+      <Link to="/cart" style={{ display: totalItems > 0 ? "block" : "none" }}>
         <i className="large material-icons material-symbols-outlined">
-          shopping_cart {totalQuantity}
+          shopping_cart {totalItems}
         </i>
       </Link>
     </>

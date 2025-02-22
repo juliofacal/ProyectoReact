@@ -1,7 +1,14 @@
 li > a.active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .card .card-image .card-title {
-    background-color: rgba(0, 0, 0, 0.5) ;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item-count {
+  display: inline-flex;
+  gap: 1em;
+  line-height: 100%;
+  text-align: center;
 }

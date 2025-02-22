@@ -1,64 +1,45 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { collection, getDocs, getFirestore, query } from "firebase/firestore";
-import Item from "./Item";
+import { getFirestore, collection, getDocs } from "firebase/firestore";
+import ItemList from "./ItemList";
+import Loading from "./Loading";
 
 function ItemListContainer() {
-  const { categoryId } = useParams();
-  const [productos, setProductos] = useState([]);
+  const { id } = useParams();
+  const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const db = getFirestore();
-    let q;
-    if (categoryId) {
-      q = query(collection(db, "items"), where("categoria", "==", categoryId));
+    let querySnapshot;
+
+    if (id) {
+      querySnapshot = query(
+        collection(db, "items"),
+        where("categoria", "==", id)
+      );
     } else {
-      q = collection(db, "items");
+      querySnapshot = collection(db, "items");
     }
 
-    getDocs(q)
-      .then((snapshot) => {
-        if (snapshot.empty) {
-          setProductos([]);
+    getDocs(querySnapshot)
+      .then((data) => {
+        if (data.empty) {
+          setItems([]);
         } else {
-          setProductos(
-            snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
-          );
+          setItems(data.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
         }
       })
       .finally(() => setLoading(false));
-  }, [categoryId]);
+  }, [id]);
 
   return (
     <>
       <div className="row">
-        <h1 className="col s12">Catálogo</h1>
+        <h1 className="col s12">{id ? `Categoría: ${id}` : "Catálogo"}</h1>
       </div>
       <div className="row">
-        {loading ? (
-          <>
-            <div className="preloader-wrapper active">
-              <div className="spinner-layer spinner-red-only">
-                <div className="circle-clipper left">
-                  <div className="circle"></div>
-                </div>
-                <div className="gap-patch">
-                  <div className="circle"></div>
-                </div>
-                <div className="circle-clipper right">
-                  <div className="circle"></div>
-                </div>
-              </div>
-            </div>
-          </>
-        ) : (
-          <div className="row">
-            {productos.map((producto) => (
-              <Item key={producto.id} producto={producto} />
-            ))}
-          </div>
-        )}
+        {loading ? <Loading /> : <ItemList items={items} />}
       </div>
     </>
   );

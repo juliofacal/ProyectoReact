@@ -13,6 +13,7 @@ function Cart() {
   return (
     <>
       <h1>Carrito</h1>
+      <p>{console.log(cart.lenght)}</p>
       <div>
         {cart.lenght === 0 ? (
           <p>No hay items en el carrito.</p>
@@ -40,7 +41,6 @@ function Cart() {
         )}
       </div>
       <Link to="/checkout" className="btn"></Link>
-      <Link to="/">Productos</Link>
     </>
   );
 }
