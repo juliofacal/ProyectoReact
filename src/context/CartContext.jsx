@@ -6,23 +6,23 @@ export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
   const addItem = (item, cantidad) => {
-    if (cantidad > item.stock) {
-      alert(
-        `No puedes agregar más de ${item.stock} unidades de este producto.`
-      );
-      return;
+    let foundItem = false;
+    const updatedCart = [];
+
+    cart.forEach((ele) => {
+      if (ele.id === item.id) {
+        ele.cantidad += cantidad;
+        foundItem = true;
+      }
+      updatedCart.push(ele);
+    });
+
+    if (!foundItem) {
+      item = { ...item, cantidad };
+      updatedCart.push(item);
     }
 
-    setCart((prevCart) => {
-      const existingItem = prevCart.find((cartItem) => cartItem.id === item.id);
-      if (existingItem) {
-        return prevCart.map((cartItem) =>
-          cartItem.id === item.id ? { ...cartItem, cantidad } : cartItem
-        );
-      } else {
-        return [...prevCart, { ...item, cantidad }];
-      }
-    });
+    setCart(updatedCart);
   };
 
   const removeItem = (itemId) => {

@@ -18,6 +18,7 @@ function ItemDetailContainer() {
     };
     fetchProducto()
       .then((results) => {
+        results.id = id;
         setItem(results);
       })
       .finally(() => setLoading(false));

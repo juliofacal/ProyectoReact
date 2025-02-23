@@ -6,9 +6,9 @@ import Stock from "./Stock";
 function ItemDetail({ item }) {
   const { cart, addItem } = useCart();
 
-  const existsInCart = cart.find((cartItem) => cartItem.id === item.id);
-
   const handleOnAdd = (quantity) => {
+    item.id = id;
+    JSON.stringify(item);
     addItem(item, quantity);
   };
 

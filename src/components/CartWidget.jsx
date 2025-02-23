@@ -6,14 +6,14 @@ function CartWidget() {
   const { totalItems } = cartContext;
   return (
     <>
-      {totalItems() > 0 && (
+      {/* {totalItems() > 0 && ( */}
         <Link to={"/cart"}>
           <i className="material-icons material-symbols-outlined">
             shopping_cart
           </i>
           {totalItems()}
         </Link>
-      )}
+      {/* )} */}
     </>
   );
 }
