@@ -1,7 +1,7 @@
 import React from "react";
 import ItemListContainer from "./ItemListContainer";
 
-function Home() {
+function Catalog() {
   return (
     <>
       <main className="container">
@@ -11,4 +11,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Catalog;

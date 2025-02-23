@@ -38,11 +38,11 @@ function CheckOut() {
         <div className="row">
           <div className="input-field col s6">
             <input id="first_name" type="text" className="validate" />
-            <label for="firt_name">Nombre</label>
+            <label htmlFor="firt_name">Nombre</label>
           </div>
           <div className="input-field col s6">
             <input id="last_name" type="text" className="validate" />
-            <label for="lart_name">Apellido</label>
+            <label htmlFor="lart_name">Apellido</label>
           </div>
         </div>
         <div className="row">

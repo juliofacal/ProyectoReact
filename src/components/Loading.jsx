@@ -2,7 +2,7 @@ import React from "react";
 
 function Loading() {
   return (
-    <>
+    <div className="row">
       <div className="preloader-wrapper active">
         <div className="spinner-layer spinner-red-only">
           <div className="circle-clipper left">
@@ -16,7 +16,7 @@ function Loading() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

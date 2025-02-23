@@ -14,12 +14,22 @@ function NavBar() {
               <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink to={"/categories"}>Categorías</NavLink>
+              <NavLink to={"/categories/1"}>Remeras</NavLink>
             </li>
             <li>
-              <NavLink to={"/carrito"}>
-                <CartWidget />
-              </NavLink>
+              <NavLink to={"/categories/2"}>Bermudas</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/categories/3"}>Camisas</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/categories/4"}>Pantalones</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/categories/5"}>Vestidos</NavLink>
+            </li>
+            <li>
+              <CartWidget />
             </li>
           </ul>
         </div>
